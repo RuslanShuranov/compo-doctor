@@ -1,0 +1,908 @@
+@font-face {
+    font-family: "DS Hiline";
+    src: url(../fonts/DS_Hiline.ttf);
+}
+
+@font-face {
+    font-family: "Micro Tech";
+    src: url(../fonts/Micro_Tech.ttf);
+}
+
+@font-face {
+    font-family: "Trebuchet MS";
+    src: url(../fonts/Trebushet_MS.ttf);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.compoDoctor {
+    display: none;
+}
+
+.main-header {
+    height: 100vh;
+    width: 100%;
+    background: url(../img/main-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.main-header .nav-bg {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-category {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    flex-flow: row nowrap;
+}
+
+.menu-category li {
+    margin-left: 80px;
+    list-style: none;
+}
+
+.menu-category .menu-first {
+    margin-left: 0;
+}
+
+.menu-category a {
+    color: #ffffff;
+}
+
+.menu-category a:hover,
+.menu-category a:active,
+.menu-category a:focus {
+    text-decoration: none;
+    border-bottom: 2px solid rgba(187, 9, 11, 0.6);
+    transition-delay: 0.1s;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.working-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.working-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto 10px;
+    font-family: "DS Hiline", serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.working-time-hours {
+    margin-bottom: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.working-time {
+    color: #e9e9e9;
+    font-family: "Trebuchet MS", serif;
+    font-weight: 400;
+}
+
+.main-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-screen .main-text {
+    text-align: center;
+    margin-top: 29vh;
+}
+
+.main-screen .main-name {
+    font-family: "DS Hiline", sans-serif;
+    color: #ffffff;
+}
+
+.slogan {
+    color: #cfcfcf;
+    font-family: "Trebuchet MS", serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 3vh;
+}
+
+.more-btn {
+    text-align: center;
+    margin-top: 12vh;
+    margin-bottom: 13vh;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.55);
+}
+
+.more-btn:hover,
+.more-btn:active,
+.more-btn:focus {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.2s ease-out;
+}
+
+.more-btn span {
+    color: #ffffff;
+    font-family: "Trebuchet MS", serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.services {
+    padding-top: 80px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.services-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.services .section-header {
+    color: #2c2c2c;
+    font-family: "Trebuchet MS", serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+
+.services .section-desc {
+    color: #4c4c4c;
+    font-family: "Trebuchet MS", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 57px;
+}
+
+.services-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.services-box a:hover,
+.services-box a:active,
+.services-box a:focus {
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    color: #fff;
+}
+
+.services-box-img {
+    align-self: flex-end;
+    display: block;
+    max-height: 131px;
+    margin: 0 auto;
+}
+
+.services-box-desc {
+    height: 35px;
+    align-self: flex-end;
+    display: block;
+    width: 100%;
+    font-family: "Trebuchet MS", serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.services-box-btn {
+    margin-top: 35px;
+    margin-bottom: 100px;
+    align-self: center;
+    width: 131px;
+    padding: 8px 0;
+    color: #ffffff;
+    font-family: "Trebuchet MS", serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 15px;
+    background-color: #a60000;
+    opacity: 0.8;
+}
+
+.computer-price {
+    padding-bottom: 50px;
+    font-family: "Trebuchet MS", serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.computer-price-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.computer-price-header {
+    margin: 90px 17px 0 0;
+    font-family: "Trebuchet MS", serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.computer-price-table {
+    box-shadow: none;
+    margin-top: 75px;
+}
+
+.computer-price td {
+    padding: 7px 5px;
+}
+
+.abonent-price {
+    padding-bottom: 50px;
+    font-family: "Trebuchet MS", serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.abonent-price-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.abonent-price .wrapper {
+    margin: 0;
+}
+
+.abonent-price-header {
+    margin: 90px 17px 0 0;
+    font-family: "Trebuchet MS", serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.abonent-price-table {
+    margin-top: 75px;
+}
+
+.abonent-price td {
+    padding: 7px 10px;
+}
+
+.mobile-price {
+    padding-bottom: 50px;
+    font-family: "Trebuchet MS", serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.mobile-price-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mobile-price-header {
+    margin: 90px 17px 0 0;
+    font-family: "Trebuchet MS", serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.mobile-price-table {
+    margin-top: 75px;
+}
+
+.mobile-price td {
+    padding: 7px 10px;
+}
+
+.printers-price {
+    padding-bottom: 50px;
+    font-family: "Trebuchet MS", serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.printers-price-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.printers-price-header {
+    margin: 90px 17px 0 0;
+    font-family: "Trebuchet MS", serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.printers-price-table {
+    margin-top: 75px;
+}
+
+.printers-price td {
+    padding: 7px 10px;
+}
+
+.network-price {
+    padding-bottom: 50px;
+    font-family: "Trebuchet MS", serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.network-price-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.network-price-header {
+    margin: 90px 17px 0 0;
+    font-family: "Trebuchet MS", serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.network-price-table {
+    margin-top: 75px;
+}
+
+.network-price td {
+    padding: 7px 10px;
+}
+
+.about-us {
+    padding-bottom: 50px;
+    font-family: "Trebuchet MS", serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.about-us-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-us-header {
+    margin: 90px 17px 0 0;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.about-us-desc {
+    margin-top: 15px;
+    color: #b83333;
+    font-size: 18px;
+}
+
+.about-us-content-wrap {
+    display: flex;
+    flex-direction: row;
+    color: #676767;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.51px;
+    margin-top: 50px;
+}
+
+.about-us-text-wrap {
+    max-width: 750px;
+}
+
+.about-us-img-wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.about-us-img-wrap img {
+    max-height: 200px;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.about-us h5 {
+    margin-bottom: 5px;
+    color: #272727;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.about-us-list {
+    margin-left: 15px;
+    list-style-image: url(../img/about-us/list-style.png);
+}
+
+.our-contacts {
+    margin-bottom: 5px;
+}
+
+.our-contacts .wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.our-contacts .header-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 1110px;
+}
+
+.our-contacts-header {
+    margin: 0 8px 0 0;
+    color: #252525;
+    font-family: "Myriad Pro", serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.our-contacts-header-img {
+    margin-bottom: 8px;
+}
+
+.contacts-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #252525;
+    font-family: "Myriad Pro", serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31.51px;
+}
+
+.contacts-wrap div {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.contacts-wrap div span {
+    margin-left: 10px;
+}
+
+.line {
+    background-color: #252525;
+}
+
+.footer {
+    background-color: #3b3b3b;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-facebook, .footer-vk, .footer-inst {
+    margin-right: 10%;
+}
+
+.footer-facebook:hover, .footer-vk:hover, .footer-inst:hover {
+    -webkit-filter: drop-shadow(0 2px 8px #000000);
+    filter: drop-shadow(5px 5px 5px #444);
+    color: rgba(0, 0, 0, 0);
+}
+
+.footer-phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    color: #e9e9e9;
+    font-family: "Trebuchet MS", serif;
+    font-size: 14px;
+}
+
+.map-link {
+    color: #252525;
+}
+
+.map-link:hover {
+    text-decoration-line: underline;
+    color: #252525;
+}
+
+.footer-slogan {
+    margin: 0;
+}
+
+.footer-number {
+    color: #e9e9e9;
+    font-family: "DS Hiline", serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-go-top {
+    margin-left: 80px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    display: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.footer-go-top:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px #444);
+    filter: drop-shadow(5px 5px 5px #444);
+}
+
+.printers-price-mob,
+.computer-price-mob,
+.abonent-price-mob,
+.network-price-mob,
+.mobile-price-mob {
+    display: none;
+}
+
+.services-mobile {
+    display: none;
+}
+
+.hamburger,
+.cross {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .contacts-wrap {
+        font-size: 20px;
+    }
+
+    .our-contacts-header {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .footer-slogan {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .btn-container {
+        display: flex;
+    }
+
+    .hamburger,
+    .cross {
+        text-align: center;
+        font-size: 30px;
+        vertical-align: center;
+        margin: auto;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .compoDoctor {
+        display: flex;
+        align-self: center;
+    }
+
+    .menu-mobile,
+    .hamburger,
+    .cross {
+        display: block;
+    }
+
+    .menu-category {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+        justify-content: center;
+        order: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .menu-mobile ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .menu-mobile a {
+        color: #ffffff;
+    }
+
+    .menu-mobile a:hover,
+    .menu-mobile a:active,
+    .menu-mobile a:focus {
+        text-decoration: none;
+        border-bottom: 2px solid rgba(187, 9, 11, 0.6);
+        transition-delay: 0.1s;
+    }
+
+    .working-time {
+        order: 2;
+    }
+
+    .contacts-wrap {
+        font-size: 18px;
+        line-height: 17px;
+        align-items: center;
+    }
+
+    .contacts-wrap div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contacts-wrap div span {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services {
+        display: none;
+    }
+
+    .footer-social {
+        display: flex;
+    }
+
+    .footer-logo img {
+        display: flex;
+        height: 19px;
+    }
+
+    .footer-logo {
+        margin-right: 10px;
+    }
+
+    .services-wrap {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .services-box {
+        width: auto;
+    }
+
+    .services-box-btn {
+        margin: auto auto 40px;
+    }
+
+    .services-mobile {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .menu-prices {
+        display: none;
+    }
+
+    .printers-price,
+    .computer-price,
+    .abonent-price,
+    .network-price,
+    .mobile-price {
+        display: none;
+    }
+
+    .footer-slogan {
+        margin-right: 0;
+    }
+
+    .contacts-wrap {
+        font-size: 15px;
+    }
+
+    .hamburger,
+    .cross {
+        font-size: 20px;
+    }
+
+    .compoLogo {
+        height: 40px;
+    }
+
+    .main-logo-img {
+        height: 30px;
+    }
+
+    .slogan {
+        font-size: 13px;
+    }
+
+    .about-us-img-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .about-us-img-wrap img {
+        max-height: 100px;
+    }
+
+    .about-us-content-wrap {
+        flex-direction: column;
+    }
+
+    .more-btn {
+        padding: 5px 20px;
+        margin-top: 9vh;
+    }
+
+    .more-btn span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 650px) {
+    .go-top {
+        display: none;
+    }
+
+    .footer-phone {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575px) {
+    .contacts {
+        display: flex;
+        justify-content: center;
+    }
+
+    .more-btn {
+        display: none;
+    }
+
+    .contacts-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-items: center;
+    }
+
+    .contacts-wrap div {
+        flex-direction: row;
+    }
+
+    .printers-price-header,
+    .computer-price-header,
+    .abonent-price-header,
+    .network-price-header,
+    .mobile-price-header {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .our-contacts-header {
+        font-size: 30px;
+    }
+
+    .footer-facebook, .footer-inst, .footer-vk {
+        margin-right: 5px;
+    }
+
+    .working-time {
+        font-size: 13px;
+    }
+
+    .about-us {
+        display: none;
+    }
+
+    .menu-about-us {
+        display: none;
+    }
+
+    .our-contacts {
+        margin-top: 30px;
+    }
+
+    .printers-price,
+    .computer-price,
+    .abonent-price,
+    .network-price,
+    .mobile-price {
+        box-shadow: none;
+    }
+
+    .hamburger,
+    .cross {
+        font-size: 15px;
+    }
+
+    .compoLogo {
+        height: 30px;
+    }
+
+    .slogan {
+        font-size: 10px;
+    }
+
+    .compoDoctor {
+        height: 15px;
+    }
+}
+
+@media (max-width: 492px) {
+    .footer-logo {
+        display: none;
+    }
+
+    .footer-facebook, .footer-inst, .footer-vk {
+        margin-right: 10px;
+    }
+
+    .footer-wrapper {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 415px) {
+    .working-time {
+        font-size: 11px;
+    }
+
+    .footer-facebook, .footer-inst, .footer-vk {
+        margin-right: 5px;
+    }
+
+    .compoLogo {
+        height: 23px;
+    }
+
+    .compoDoctor {
+        height: 12px;
+    }
+}
