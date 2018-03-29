@@ -512,8 +512,15 @@
     align-items: center;
 }
 
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .footer-facebook, .footer-vk, .footer-inst {
-    margin-right: 10%;
+    margin-right: 20px;
+    width: 100%;
 }
 
 .footer-facebook:hover, .footer-vk:hover, .footer-inst:hover {
